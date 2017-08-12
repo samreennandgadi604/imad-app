@@ -23,7 +23,7 @@ function createTemplete(data) {
 var htmlTemplate = 
     `<html>
     <head>
-        <title>$(title)</title>
+        <title>${title}</title>
         <meta name="viewport" content="width-device-width initial-scale=1"/>
         <link href="/ui/style.css" rel="stylesheet" />
         </head>
@@ -33,10 +33,10 @@ var htmlTemplate =
                 <a href>home</a>
             
             <div>
-                <p1>$(heading)</p1>
+                <p1>${heading}</p1>
             </div>
             <section>
-               $(section)
+               ${section}
             </section>
             </div>
         </body>
